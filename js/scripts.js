@@ -5,6 +5,12 @@ $(function() {
   $(".methodsClick").click(function() {
     $("#methodCard").toggle();
   });
+  $(".varClick").click(function() {
+    $("#variablesCard").toggle();
+  });
+  $(".operClick").click(function() {
+    $("#operatorsCard").toggle();
+  });
 
 
 
