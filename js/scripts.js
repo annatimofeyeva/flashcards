@@ -1,10 +1,14 @@
 $(function() {
-  $(".kittenClick").click(function() {
-    $("#hideKitten").toggle();
-    $("#showKitten").toggle();
+  $(".functionClick").click(function() {
+    $("#functionsCard").toggle();
   });
-  $(".buildingClick").click(function() {
-    $("#hideBuilding").toggle();
-    $("#showBuilding").toggle();
+  $(".methodsClick").click(function() {
+    $("#methodCard").toggle();
+  });
+
+
+
+  $(".close").click(function() {
+    $(".card").hide();
   });
 });

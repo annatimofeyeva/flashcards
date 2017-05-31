@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Peek-a-boo</title>
+    <title>Learn JavaScript</title>
   </head>
   <body>
     <div class="container">
-      <h1>Peek-a-boo</h1>
+      <h1>Javascript Flashcards Game</h1>
 
-      <p>Let's play peek-a-boo.</p>
-      <div id="showKitten">
-        <p><span class="linked kittenClick">Show</span> kitten.</p>
-      </div>
-      <div id="hideKitten">
-        <p><span class="linked kittenClick">Hide</span> kitten.</p>
-        <img src="img/kitten.jpg">
-      </div>
-      <div id="showBuilding">
-        <p><span class="linked buildingClick">Show</span> the building.</p>
-        </div>
-      <div id="hideBuilding">
-        <p><span class="linked buildingClick">Hide</span> the building.</p>
-        <img src="img/building.jpg">
+
+    <!-- js terms buttons -->
+    <button class="btn btn-primary functionClick">Functions</button>
+    <button class="btn btn-primary methodsClick">Methods</button>
+    <button class="btn btn-primary functionClick">Functions</button>
+    <button class="btn btn-primary functionClick">Functions</button>
+
+    <!-- Our Flash Cards go here -->
+      <!-- Card start -->
+    <div id="functionsCard" class="modal card">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>A function is a "subprogram" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.</p>
       </div>
     </div>
+    <!-- Card end -->
+    <!-- Card start -->
+  <div id="methodCard" class="modal card">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>JavaScript methods are the actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
+    </div>
+  </div>
+  <!-- Card end -->
+
   </body>
 </html>
